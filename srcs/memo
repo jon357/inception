@@ -15,6 +15,23 @@ WP_USER=
 WP_USER_PASSWORD=
 WP_USER_ROLE=
 
+.env exemple
+BDD_HOST=mariadb
+BDD_USER=user
+BDD_USER_PASSWORD=dbpw
+BDD_NAME=wordpress
+
+BDD_ROOT_PASSWORD=dbpw
+
+WP_ADMIN_EMAIL=admin@wp.com
+WP_ADMIN_USER=admin_user
+WP_ADMIN_PASSWORD=admpw
+
+WP_USER_EMAIL=user@wp.com
+WP_USER=user_user
+WP_USER_PASSWORD=userpw
+WP_USER_ROLE=editor
+
 
 commande docker
 docker image ls
