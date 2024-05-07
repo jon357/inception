@@ -15,13 +15,8 @@ WP_USER=
 WP_USER_PASSWORD=
 WP_USER_ROLE=
 
-
-commande docker
-docker image ls
-docker ps
-docker volume ls
-
-
 hosts
 C:\Windows\System32\drivers\etc\hosts
 /etc/hosts
+
+127.0.0.1 jcheca.42.fr

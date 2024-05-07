@@ -10,4 +10,12 @@ clean:
 
 re: down clean all
 
-.PHONY: all clean fclean re
+ls:
+	sudo docker image ls
+	sudo docker ps
+	sudo docker volume ls
+
+prune:
+	docker system prune -fa --volumes
+
+.PHONY: all down clean re prune
