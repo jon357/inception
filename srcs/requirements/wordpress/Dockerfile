@@ -9,6 +9,4 @@ RUN mkdir /run/php
 COPY ./tools/install.sh /home/
 RUN chmod 777 /home/install.sh
 
-EXPOSE 9000
-
 ENTRYPOINT ["/home/install.sh" ] 
